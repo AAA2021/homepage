@@ -1,10 +1,12 @@
 /* CSS Document */
 
 body {
-    position: relative;
+    background-repeat: no-repeat;
     overflow-x: hidden;
-    background-image: url("p1.jpg");
+    background-image: url("p6.jpg");
     background-size: cover;
+    background-attachment: fixed;
+
 
 }
 
@@ -191,7 +193,7 @@ html { height: 100%;}
 .jumbotron{
 padding-bottom: 0px;
 padding-top: 10px;
-background-image: url("p1.jpg");
+background-image: url("p6.jpg");
 background-size: cover;
 image-resolution: from-image;
 
@@ -199,6 +201,7 @@ image-resolution: from-image;
 }
 .jumbotron h1{
   text-align-last: center;
+  color: #ffff;
 }
 
 .sidebar-brand{
@@ -220,6 +223,7 @@ grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 10px;
 grid-row-gap: 10px;
+color: #ffff;
 }
 
 .div1 { grid-area: 1 / 1 / 5 / 3; }
@@ -231,4 +235,9 @@ grid-row-gap: 10px;
 .noby{
 
   margin-right: 20px;
+}
+
+.btn1{
+
+  background-color: #52527a;
 }
