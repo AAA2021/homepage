@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="jumbotron">
-      <h1>Add Patient.</h1>
+      <h1>OR</h1>
     </div>
     <div id="wrapper">
         <div class="overlay"></div>
@@ -63,6 +63,7 @@
                     <li><a href="#">schedule list</a></li>
                   </ul>
                 </li>
+
                 <li>
                     <a href="Add OR.html">Add OR</a>
                 </li>
@@ -92,22 +93,49 @@
               <br>
               <div class="panel panel-warning col-lg-14">
                 <div class="panel-heading col-lg-14">
-                  <h3 class=" panel-title"><h3>Add Department</h3></h3>
+                  <h3 class=" panel-title"><h3>Add OR</h3></h3>
                 </div>
                 <br><br>
                 <div class="row ">
                     <div class="col-sm-offset-1 col-lg-9">
                         <form>
                           <div class="form-group row">
-                            <label class="col-sm-3 col-form-label" >Department Name </label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" placeholder="First Name" required>
+                            <label class="col-sm-2 col-form-label" >OR ID </label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" placeholder="OR ID" required>
                             </div>
                           </div>
 
                           <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Description</label>
-                            <div class="col-sm-9">
+                            <label class="col-sm-2 col-form-label" >OR Name</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" placeholder="OR Name" required>
+                            </div>
+                          </div>
+
+                          <div class="form-group row">
+                            <label  class="col-sm-2 col-form-label">Department</label>
+                            <div class="col-sm-10">
+                            <select class="form-control">
+                              <option selected disabled value="">Choose...</option>
+                              <option value="A-">Microbiology</option>
+                              <option value="B+">Neonatal</option>
+                              <option value="B-">Nephrology</option>
+                              <option value="O+">OR</option>
+                              <option value="O-">Orthopaedics</option>
+                              <option value="A+">Pharmacy</option>
+                              <option value="A+">Radiotherapy</option>
+                              <option value="A+">Rheumatology</option>
+                              <option value="A+">Gynaecology</option>
+                              <option value="A+">Obstetrics</option>
+                              <option value="A+">General Surgery</option>
+                            </select>
+                          </div>
+                          </div>
+
+                          <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Description</label>
+                            <div class="col-sm-10">
                             <textarea class="form-control" placeholder="Add Message"></textarea>
                           </div>
                           </div>

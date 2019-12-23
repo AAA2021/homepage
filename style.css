@@ -179,12 +179,15 @@ html { height: 100%;}
 }
 
 .custom-btn{
+
+  margin-top: -100px;
 	margin-left: 15px;
 	color: white;
 	background-color: dimgray;
-  position: fixed;
+  position: absolute;
 }
 .custom-btn:hover{
+
 	margin-left: 15px;
 	color: red;
 	background-color: black;
