@@ -196,7 +196,8 @@ padding-top: 10px;
 background-image: url("p6.jpg");
 background-size: cover;
 image-resolution: from-image;
-
+background-repeat: no-repeat;
+background-attachment: fixed;
 
 }
 .jumbotron h1{
